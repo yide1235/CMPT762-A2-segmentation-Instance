@@ -2,8 +2,4 @@
 compare end-to-end and not
 
 
-ls
-
-
-
 
