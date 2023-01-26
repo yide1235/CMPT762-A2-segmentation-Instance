@@ -26,4 +26,3 @@ use mask rcnn for segmentation
 
 At the end, end-to-end training shows better training accuracy. This is already widely used in DL.
 
-LS
