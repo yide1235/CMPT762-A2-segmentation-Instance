@@ -1,7 +1,7 @@
 # Comparsion end-to-end and not
 In the .ipynb file, there is two way of doing segmentation, the first approach use a fast-rcnn detection model first, then do U-Net based segmentation on detected boxes. The second one is end-to-end mask rcnn segmentation. It shows in engineering, end-to-end straining ometimes shows better accuracy.
 
-##First part, train a fast rcnn model with detectron:
+##First part is use Rcnn for detecting box then doing segmentation in the box:
 
 ![f9dd39f2ba17a37330b91f0f4364f84](https://user-images.githubusercontent.com/66981525/212870432-5404ce03-76d7-4cb2-891b-d3d4b0bfc30d.png)
 ![1dd6611e2ba10e9cc421fa2ff6099eb](https://user-images.githubusercontent.com/66981525/212870488-adbc697f-6452-4931-930a-c68cf2780c4b.png)
@@ -20,7 +20,7 @@ then I use nested U-net structure for segmentation. some model structure, loss a
 end of this not end-to-end training pipeline.
 
 ##Second part
-use mask rcnn for segmentation
+use end-to-end mask rcnn for segmentation 
 ![264db410a4b40e4fbb67d0471b8c391](https://user-images.githubusercontent.com/66981525/212871698-65342d6b-8997-4ff2-a3c9-802926ebe1b3.png)
 ![a44c5f7f7c8456d4b6d59ec84e2bd30](https://user-images.githubusercontent.com/66981525/212871711-41b9294e-9866-4d33-a951-64e87afac3c7.png)
 
