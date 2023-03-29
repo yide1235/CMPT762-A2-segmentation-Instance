@@ -12,18 +12,17 @@ In the .ipynb file, there is two way of doing segmentation, the first approach u
 ![1dd6611e2ba10e9cc421fa2ff6099eb](https://user-images.githubusercontent.com/66981525/212870488-adbc697f-6452-4931-930a-c68cf2780c4b.png)
 ![f9dd39f2ba17a37330b91f0f4364f84](https://user-images.githubusercontent.com/66981525/212870432-5404ce03-76d7-4cb2-891b-d3d4b0bfc30d.png)
 
-## Then I use nested U-net structure for segmentation. some model structure, loss and result:
+## Then I use Nested U-net structure for segmentation. some model structure, loss and result:
 ## Nested Unet structure:
 ![4](https://user-images.githubusercontent.com/66981525/212871217-ed42a09f-477b-4e6f-9f86-a7b9ab8941ba.png)
 
-## Some results:
+## Some results ( inout | GT | prediction by Nested Unet) :
 ![ea92ec51f2813e7178d37f8751b56e1](https://user-images.githubusercontent.com/66981525/212871280-31e3d413-c8ab-4aa7-989b-491646e2ddea.png)
 ![90e2831c749ff819b98d36a71710e2f](https://user-images.githubusercontent.com/66981525/212871299-0e0c8349-9b86-43fe-999a-8903693f5233.png)
 
 ## Training curve:
 ![fb68f2425168d533ddcda34e6314bdb](https://user-images.githubusercontent.com/66981525/212871265-18587dbc-2b3e-45c4-bbc3-0c29a436333a.png)
 ![919f04f33d6b83e4f0bdc8bc77beb48](https://user-images.githubusercontent.com/66981525/212871236-6b2bb93f-3322-45f7-a94c-68ca86e25ce7.png)
-## End of this non end-to-end training pipeline.
 
 ## Second part
 ## Use end-to-end mask rcnn for segmentation 
