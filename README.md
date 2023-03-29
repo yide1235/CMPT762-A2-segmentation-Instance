@@ -3,12 +3,13 @@ In the .ipynb file, there is two way of doing segmentation, the first approach u
 
 ##First part is use Rcnn for detecting box then doing segmentation in the box:
 
-![f9dd39f2ba17a37330b91f0f4364f84](https://user-images.githubusercontent.com/66981525/212870432-5404ce03-76d7-4cb2-891b-d3d4b0bfc30d.png)
-![1dd6611e2ba10e9cc421fa2ff6099eb](https://user-images.githubusercontent.com/66981525/212870488-adbc697f-6452-4931-930a-c68cf2780c4b.png)
 For some result of fast-rcnn result:
 ![1](https://user-images.githubusercontent.com/66981525/212870816-7f83ee41-d88b-455e-a18b-4c96faf426a3.png)
 ![2](https://user-images.githubusercontent.com/66981525/212870890-5118e47d-5914-4c64-a670-f506959006a0.png)
 ![3](https://user-images.githubusercontent.com/66981525/212870904-7aede4fb-a24d-4036-b036-ebcae6280a6b.png)
+For training curve:
+![f9dd39f2ba17a37330b91f0f4364f84](https://user-images.githubusercontent.com/66981525/212870432-5404ce03-76d7-4cb2-891b-d3d4b0bfc30d.png)
+![1dd6611e2ba10e9cc421fa2ff6099eb](https://user-images.githubusercontent.com/66981525/212870488-adbc697f-6452-4931-930a-c68cf2780c4b.png)
 
 then I use nested U-net structure for segmentation. some model structure, loss and result:
 ![4](https://user-images.githubusercontent.com/66981525/212871217-ed42a09f-477b-4e6f-9f86-a7b9ab8941ba.png)
