@@ -1,4 +1,4 @@
-# Comparsion end-to-end and not
+# Comparsion end-to-end and not for airplane instance segmentation
 In the .ipynb file, there is two way of doing segmentation, the first approach use a fast-rcnn detection model first, then do U-Net based segmentation on detected boxes. The second one is end-to-end mask rcnn segmentation. It shows in engineering, end-to-end straining ometimes shows better accuracy.
 
 ## First part is use Rcnn for detecting box then doing segmentation in the box:
@@ -21,13 +21,12 @@ In the .ipynb file, there is two way of doing segmentation, the first approach u
 ![90e2831c749ff819b98d36a71710e2f](https://user-images.githubusercontent.com/66981525/212871299-0e0c8349-9b86-43fe-999a-8903693f5233.png)
 
 ## Training curve:
-![919f04f33d6b83e4f0bdc8bc77beb48](https://user-images.githubusercontent.com/66981525/212871236-6b2bb93f-3322-45f7-a94c-68ca86e25ce7.png)
 ![fb68f2425168d533ddcda34e6314bdb](https://user-images.githubusercontent.com/66981525/212871265-18587dbc-2b3e-45c4-bbc3-0c29a436333a.png)
-
-end of this not end-to-end training pipeline.
+![919f04f33d6b83e4f0bdc8bc77beb48](https://user-images.githubusercontent.com/66981525/212871236-6b2bb93f-3322-45f7-a94c-68ca86e25ce7.png)
+## End of this non end-to-end training pipeline.
 
 ## Second part
-use end-to-end mask rcnn for segmentation 
+## Use end-to-end mask rcnn for segmentation 
 ![264db410a4b40e4fbb67d0471b8c391](https://user-images.githubusercontent.com/66981525/212871698-65342d6b-8997-4ff2-a3c9-802926ebe1b3.png)
 ![a44c5f7f7c8456d4b6d59ec84e2bd30](https://user-images.githubusercontent.com/66981525/212871711-41b9294e-9866-4d33-a951-64e87afac3c7.png)
 
