@@ -29,5 +29,4 @@ In the .ipynb file, there is two way of doing segmentation, the first approach u
 ![264db410a4b40e4fbb67d0471b8c391](https://user-images.githubusercontent.com/66981525/212871698-65342d6b-8997-4ff2-a3c9-802926ebe1b3.png)
 ![a44c5f7f7c8456d4b6d59ec84e2bd30](https://user-images.githubusercontent.com/66981525/212871711-41b9294e-9866-4d33-a951-64e87afac3c7.png)
 
-## At the end, end-to-end training shows better training accuracy. This is already widely used in DL.
 
